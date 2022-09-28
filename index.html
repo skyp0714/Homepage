@@ -55,7 +55,7 @@
 						</div>
 
 						<div class="col text-start">
-							<p class="mb-0"> I am an undergraduate student majoring in Electrical and Computer Engineering at Seoul National University. My research interest lies on computer architectures; designing a high performance computer. I am currently wishing to study abroad for a PhD Degree. <br><br> You can find PDF version of my CV  <a class="pdf-link" href="pdf.js/web/viewer.html?file=attachments/Haneul_Park_CV.pdf">here</a>.</p>
+							<p class="mb-0"> I am an undergraduate student majoring in Electrical and Computer Engineering at Seoul National University. My research interest lies on computer architectures; <b>high performance and energy efficient cloud systems, system modeling and simulation, and domain-specific hardware.</b> I am currently wishing to study abroad for a PhD Degree. <br><br> You can find PDF version of my CV  <a class="pdf-link" href="pdf.js/web/viewer.html?file=attachments/Haneul_Park_CV.pdf">here</a>.</p>
 						</div><!--//col-->
 					</div>
 				</div><!--//resume-intro-->
@@ -64,46 +64,58 @@
 					<div class="row">
 						<div class="resume-main col-12 col-lg-8 col-xl-9   pe-0   pe-lg-5">
 							<section class="work-section py-3">
-								<h3 class="text-uppercase resume-section-heading mb-4">Experiences</h3>
+								<h3 class="text-uppercase resume-section-heading mb-4">Experience</h3>
 								<div class="item mb-3">
 									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Adding Multi-GPU Support on Gem5</h4>
-										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end"> Jan 2022 - Jul 2022</div>
+										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Operating System Transparent DRAM Power Management for Disaggregated Memory</h4>
+										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Jul 2022 - Now</div>
 
 									</div>
 									<div class="item-content">
-										<p>Graduation project supervised by, High Performance Computer System Lab @ SNU, Prof. Jangwoo Kim</p>
+										<p>Undergraduate Intern</p>
 										<ul class="resume-list">
-											<li>Modified Gem5 AMD APU model to support multi-GPU simulation</li>
-											<li>Most changes are done in emulated kernel driver(ROCk)</li>
+											<li>Advised by Prof. Jae W. Lee, Architecture and Code Optimization Lab @ SNU</li>
+											<li>Conducted experiment on scheduling virtual machines running Cloudsuite 4.0 and STREAM benchmark based on Microsoft Azure VM Trace</li>
+											<li>Analyzed Bandwidth utilization and DRAM power consumption for aggressive rank‑level power down by using PCM for measurement and Quartz for emulating remote DRAM latency</li>
+											<div style="text-align : center;">
+												<img style="border-radius: 0%;" src="assets/images/research_img1.png" height=200vw>
+	 										</div>
 										</ul>
 									</div>
 								</div><!--//item-->
 								<div class="item mb-3">
 									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Power Management in Remote Memory System</h4>
-										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Jul 2022 - Now</div>
+										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Enabling Multi-GPU Support on Gem5</h4>
+										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end"> Jan 2022 - Jul 2022</div>
 
 									</div>
 									<div class="item-content">
-										<p>Internship program supervised by, Architecture and Code Optimization Lab @ SNU, Prof. Jae Wook Lee</p>
+										<p>Senior Project</p>
 										<ul class="resume-list">
-											<li>Setting up experiment for power and performance of the system</li>
-											<li>Contributed on experiment configuration and writing paper</li>
+											<li>Advised by Prof. Jangwoo Kim, High Performance Computer System Lab @ SNU</li>
+											<li>Extended existing gem5 GPU model by duplicating GPUs and rearranging Ruby memory interface</li>
+											<li>Modified emulated kernel driver to distinguish GPU ID and doorbell region of each GPU from others </li>
+											<div style="text-align : center;">
+												<img style="border-radius: 0%;" src="assets/images/research_img2.png" height=200vw>
+	 										</div>
 										</ul>
 									</div>
 								</div><!--//item-->
 								<div class="item mb-3">
 									<div class="item-heading row align-items-center mb-2">
 										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Designing AI Accelerator on FPGA</h4>
-										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Sep 2021 - Dec 2021</div>
+										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Feb 2022 - Jul 2022</div>
 
 									</div>
 									<div class="item-content">
-										<p>Digital System Design, Prof. Jaewoong Sim</p>
+										<p>2nd place, 2022 Deep Learning hardware Design Competition</p>
 										<ul class="resume-list">
-											<li>Implemented computing part based on systolic array design.</li>
-											<li>Inference CIFAR-10 on revised VGG model.</li>
+											<li>Organized presentation, IEEE International Conference on Artificial Intelligence Circuits and Systems (AICAS), 2022</li>
+											<li>Designed and implemented high performance and power efficient FPGA implementation of YOLO CNN inference</li>
+											<li>Design exploits datapath without weight reuse and adder tree base parallel convolution of degree 4</li>
+											<div style="text-align : center;">
+												<img style="border-radius: 0%;" src="assets/images/research_img3.png" height=200vw>
+	 										</div>
 										</ul>
 									</div>
 								</div><!--//item-->
@@ -114,15 +126,14 @@
 
 							<section class="project-section py-3">
 								<h3 class="text-uppercase resume-section-heading mb-4">Honors and Awards</h3>
-								<div class="item mb-3">
+								<div class="item">
 									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Presidential Science Scholarship</h4>
-										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Mar 2018 - Now</div>
+										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Artificial Intelligence Xelerator (AIX) Design Contest, 2nd prize </h4>
+										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Feb 2022 - Jul 2022</div>
 
 									</div>
 									<div class="item-content">
-										<p>KOSAF, Fully funded scholarship and additional 5M KRW per year for undergraduate course</p>
-
+										<p>Nation-wide contest organized by POLARIS, a university union for semiconductor evolution</p>
 
 									</div>
 								</div><!--//item-->
@@ -137,17 +148,19 @@
 
 									</div>
 								</div><!--//item-->
-								<div class="item">
+								<div class="item mb-3">
 									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Artificial Intelligence Xelerator (AIX) Design Contest, 2nd prize </h4>
-										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Feb 2022 - Jul 2022</div>
+										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Presidential Science Scholarship</h4>
+										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Mar 2018 - Now</div>
 
 									</div>
 									<div class="item-content">
-										<p>Nation-wide contest organized by POLARIS, a university union for semiconductor evolution</p>
+										<p>KOSAF, Fully funded scholarship and additional 5M KRW per year for undergraduate course</p>
+
 
 									</div>
 								</div><!--//item-->
+
 
 								<div class="item">
 									<div class="item-heading row align-items-center mb-2">
@@ -166,17 +179,43 @@
 								</div><!--//item-->
 							</section><!--//project-section-->
 
+							<section class="project-section py-3">
+								<h3 class="text-uppercase resume-section-heading mb-4">Teaching</h3>
+								<div class="item mb-3">
+									<div class="item-heading row align-items-center mb-2">
+										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Calculus 1 & Calculus 2</h4>
+										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Spring 2019, Fall 2022</div>
+
+									</div>
+									<div class="item-content">
+										<p>Peer tutor, Provided 30 hours of lecture for freshman</p>
+
+
+									</div>
+								</div><!--//item-->
+								<div class="item">
+									<div class="item-heading row align-items-center mb-2">
+										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Engineering Mathematics 1</h4>
+										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Fall 2019</div>
+
+									</div>
+									<div class="item-content">
+										<p>Peer tutor, Provided 30 hours of lecture for sophomore/junior</p>
+
+									</div>
+								</div><!--//item-->
+							</section><!--//project-section-->
 
 							<section class="project-section py-3">
 								<h3 class="text-uppercase resume-section-heading mb-4">Eatracurricular</h3>
 								<div class="item mb-3">
 									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Military Service</h4>
+										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Auxiliary Police</h4>
 										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Feb 2019 - Aug 2021</div>
 
 									</div>
 									<div class="item-content">
-										<p>Auxiliary Police; Served in Seoul yangcheon police office as a mobile police, 809 police force in Gimpo International Airport as a mobile police, and Seoul Mobile Police Headquarters as a signaller.</p>
+										<p>Served as Network Maintenance Engineer in Seoul Mobile Police Headquarters</br>Completed South Korea’s mandatory military service taking leave of absence from university</p>
 
 
 									</div>
@@ -187,18 +226,7 @@
 
 									</div>
 									<div class="item-content">
-										<p>Total 338 hours, mostly teaching activity</p>
-
-									</div>
-								</div><!--//item-->
-								<div class="item">
-									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Teaching Experience </h4>
-										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">2019, 2022</div>
-
-									</div>
-									<div class="item-content">
-										<p>Participated in peer-tutoring at SNU as a tutor in Calculus (2019 Spring, 2022 Spring) and Engineering Mathematics (2019 Fall).</p>
+										<p>Total 338 hours, consists mostly of teaching activities</p>
 
 									</div>
 								</div><!--//item-->
@@ -214,9 +242,11 @@
 									<h4 class="item-title">Technical</h4>
 									<ul class="list-unstyled resume-skills-list">
 										<li class="mb-2">C/C++/Python</li>
+										<li class="mb-2">Linux<li>
 										<li class="mb-2">Verilog<li>
-											<li class="mb-2">javascript</li>
-											<li class="mb-2">MATLAB/R</li>
+										<li class="mb-2">HTML/CSS/javascript</li>
+										<li class="mb-2">LaTex<li>
+										<li class="mb-2">MATLAB/R</li>
 										</ul>
 									</div><!--//item-->
 									<div class="item">
@@ -247,14 +277,14 @@
 										</ul>
 									</section><!--//education-section-->
 
-									<section class="skills-section py-3">
+									<!-- <section class="skills-section py-3">
 										<h3 class="text-uppercase resume-section-heading mb-4">Interests</h3>
 										<ul class="list-unstyled resume-interests-list mb-0">
 											<li class="mb-2">Skiing</li>
 											<li class="mb-2">Traveling</li>
 											<li class="mb-2">Console Game</li>
 										</ul>
-									</section><!--//certificates-section-->
+									</section><!--//certificates-section--> -->
 
 								</aside><!--//resume-aside-->
 							</div><!--//row-->
