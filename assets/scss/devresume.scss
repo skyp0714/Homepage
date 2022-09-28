@@ -1,4 +1,4 @@
-/*! 
+/*!
  * Template Name: DevResume - Bootstrap 5 Resume/CV Template for Software Developers
  * Version: Bootstrap 5 v2.0
  * Author: Xiaoying Riley
@@ -9,7 +9,7 @@
 
 /*************************** Theme Colours****************************/
 // Define theme colour scheme
-$theme-color-primary: #54B689;
+$theme-color-primary: #76c7e4;
 $theme-text-color-primary: #292929;
 $theme-text-color-secondary: lighten($theme-text-color-primary, 15%);
 $theme-text-color-light: lighten($theme-text-color-primary, 40%);
@@ -38,11 +38,11 @@ $secondary: $theme-text-color-secondary;
 /*************************** DevResume Styles ****************************/
 
 /*********** Theme Generic **********/
-body { 
+body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: $theme-text-color-secondary;
-    
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -112,7 +112,7 @@ a.theme-link {
 	font-weight: 900;
 	letter-spacing: 0.4rem;
 	color: $theme-color-primary;
-	
+
 }
 
 .resume-tagline {
@@ -143,7 +143,7 @@ a.resume-link {
 	.item-title {
 		font-size: 1rem;
 	}
-	
+
    .item-meta {
 	   font-size: 0.75rem;
    }
@@ -160,7 +160,7 @@ a.resume-link {
 	.item-title {
 		font-size: 1rem;
 	}
-	
+
 }
 
 
@@ -201,10 +201,3 @@ a.resume-link {
 	    border-left: 0;
     }
 }
-    
-
-
-
-
-
-
